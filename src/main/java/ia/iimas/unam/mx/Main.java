@@ -29,6 +29,7 @@ public class Main {
         System.out.println("Introduce el numero del archivo a analizar:");
         System.out.println("1. ks_19_0");
         System.out.println("2. ks_10000_0");
+        System.out.print("> ");
 
         String option = scanner.nextLine();
 
