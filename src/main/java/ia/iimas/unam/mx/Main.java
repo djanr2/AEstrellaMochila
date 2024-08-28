@@ -45,6 +45,7 @@ public class Main {
         while (!items.isEmpty()) {
             i = items.poll();
             if(pack_capacity>=i.getWeight()){
+                pack_capacity-=i.getWeight();
                 i.pick();
                 ks.add(i);
             }
